@@ -8,7 +8,7 @@ document.addEventListener("deviceready", onDeviceReady, false);
 //
 function onDeviceReady() {
     // Now safe to use the PhoneGap API
-    
+    alert('hi');
 	var region = new ibeacon.Region({
 		uuid: '7b44b47b-52a1-5381-90c2-f09b6838c5d4'
 	});
