@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.bah.ibeacon"
+    versionCode = "10" 
+    version     = "1.0.0" >
+
+    <name>iBeacon</name>
+
+    <description>
+        Prototype iBeacon
+    </description>
+
+    <access origin="*"/>
+    
+    <preference name="fullscreen" value="true" />
+    
+    <preference name="webviewbounce" value="false" />
+
+    <plugin name="eu.mobilion.ibeacon" spec="0.0.0" source="pgb" />
+
+
+ 
+  
+
+</widget>
+
+
+
