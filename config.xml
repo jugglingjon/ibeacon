@@ -20,6 +20,8 @@
     <preference name="webviewbounce" value="false" />
 
     <plugin name="eu.mobilion.ibeacon" spec="0.0.0" source="pgb" />
+    <plugin name="org.apache.cordova.battery-status" spec="0.2.12" source="pgb" />
+    <plugin name="com.phonegap.plugin.statusbar" spec="1.1.0" source="pgb" />
 
 
  

@@ -8,17 +8,23 @@ document.addEventListener("deviceready", onDeviceReady, false);
 //
 function onDeviceReady() {
     // Now safe to use the PhoneGap API
-    alert('hi');
-	var region = new ibeacon.Region({
-		uuid: '7b44b47b-52a1-5381-90c2-f09b6838c5d4'
+    StatusBar.hide();
+
+	var region = new cordove.plugins.ibeacon.Region({
+		uuid: '7B44B47B-52A1-5381-90C2-F09B6838C5D4'
 	});
 
 	ibeacon.startRangingBeaconsInRegion({
 		region: region,
 		didRangeBeacons: function(result) {
 			//console.log('I see ' + result.beacons.length + ' beacons');
+			alert('found');
 			$('#count').text(result.beacons.length);
 		}
 	});
+
+
+
+
 }
 
