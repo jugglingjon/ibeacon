@@ -10,7 +10,7 @@ function onDeviceReady() {
     // Now safe to use the PhoneGap API
     StatusBar.hide();
 
-	var region = new cordove.plugins.ibeacon.Region({
+	var region = new ibeacon.Region({
 		uuid: '7B44B47B-52A1-5381-90C2-F09B6838C5D4'
 	});
 
